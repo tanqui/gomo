@@ -1,2 +1,2 @@
-# tom
-My website and projects
+# gomo
+My projects
