@@ -1,0 +1,93 @@
+* {
+	border: solid 1px red;
+}
+
+/* .itim-regular {
+  font-family: "Itim", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+*/
+
+body {
+	background: #FFE8B8;
+	cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="orange" stroke="none" width="20px" height="20px" viewBox="0 0 10.04 10.04"><circle cx="5.02" cy="5.02" r="4.52"/></svg>') 10 10, auto;
+  height: 100vh;
+  font-family: "Itim";
+  font-size: 20px;
+
+}
+
+header {
+	padding-bottom: 20px;
+}
+
+main {
+		text-align: center;
+}
+
+h1 {
+	font-family: "helvetica";
+}
+
+.menu {
+	float: right;
+	margin-right: 30px;
+	margin-top: 0px;
+	color: orange;
+}
+
+a {
+	color: orange;
+	text-decoration: none;
+}
+
+a:hover {
+ 	/* color: #FFE8B8;
+ 	text-decoration: line-through; */
+ 	cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" stroke="orange" fill="none" width="20px" height="20px" viewBox="0 0 10.04 10.04"><circle cx="5.02" cy="5.02" r="4.52"/></svg>') 10 10, auto;
+ 	background-color: ;
+}
+
+.inabout {
+	text-decoration: line-through;
+}
+
+
+footer {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.mini {
+	width: 100px;
+	mix-blend-mode: multiply;
+}
+
+.gomomanu {
+	width: 150px;
+	margin: 20px 0px 0px 20px;
+}
+
+.gomoanim img {
+	max-width: 30%;
+	min-width:300px;
+	margin-top: 20px;
+	mix-blend-mode: darken;
+}
+
+.under {
+	position: absolute;
+	top: 100px;
+	z-index: -1;
+}
+
+.top {
+	position: relative;
+	left: 2px;
+	top: 10px;
+	z-index: -1;
+}
+
+
+
