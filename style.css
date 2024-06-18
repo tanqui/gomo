@@ -1,5 +1,9 @@
 * {
-	border: solid 0px red;
+	border: solid 0px salmon;
+/*
+	background-color: lightgrey; 
+	mix-blend-mode: multiply;
+	margin: 5px; */
 }
 
 /* .itim-regular {
@@ -10,72 +14,100 @@
 */
 
 body {
-	background: #FFE8B8;
+	background: floralwhite;  /* #FFE8B8 */ /* floralwhite? */
 	cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="orange" stroke="none" width="20px" height="20px" viewBox="0 0 10.04 10.04"><circle cx="5.02" cy="5.02" r="4.52"/></svg>') 10 10, auto;
-  height: 100vh;
+  /* height: 100vh; */
   font-family: "Itim";
   font-size: 20px;
-
-}
-
-header {
-	padding-bottom: 20px;
-}
-
-main {
-		text-align: center;
-}
-
-h1 {
-	font-family: "helvetica";
-}
-
-.menu {
-	float: right;
-	margin-right: 30px;
-	margin-top: 0px;
-	color: orange;
 }
 
 a {
 	color: orange;
 	text-decoration: none;
+	align-content: center;
 }
 
 a:hover {
- 	/* color: #FFE8B8;
+ 	color: blue; /* 
  	text-decoration: line-through; */
- 	cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" stroke="orange" fill="none" width="20px" height="20px" viewBox="0 0 10.04 10.04"><circle cx="5.02" cy="5.02" r="4.52"/></svg>') 10 10, auto;
- 	background-color: ;
+ 	cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" stroke="none" fill="blue" width="20px" height="20px" viewBox="0 0 10.04 10.04"><circle cx="5.02" cy="5.02" r="4.52"/></svg>') 10 10, auto;
+}
+
+header {
+	padding: 20px;
+	text-align: center;
+}
+
+.gomo {
+	width: 80%;
+	max-width: 200px;
+	margin-bottom: 20px;
+}
+
+.nav {
+	width: 90%;
+	max-width: 250px;
+	color: orange;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+}
+
+main {
+		display: flex;
+		justify-content: center;
+}
+.gomogif {
+	min-width: 10px;
+	max-width:400px;
+	max-height: 60vh;
+	margin-top: 0px;
+	mix-blend-mode: darken;
+}
+
+
+h1 {
+	font-family: "helvetica";
 }
 
 .inabout, .instore {
 	text-decoration: line-through;
 }
 
-
 footer {
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 0px;
+	display: flex;
+	justify-content: center;
+	color: orange;
 }
 
-.mini {
-	width: 100px;
-	mix-blend-mode: multiply;
+.icons {
+	width: 20px;
+	margin: 5px;
+}
+.icons:hover {
+	filter: invert(100%);
 }
 
-.gomomanu {
-	width: 150px;
-	margin: 20px 0px 0px 20px;
+.mail {
+	width: 200px;
+	max-width: 100%;
+	display: flex;
+	justify-content: flex-end;
+}
+.social {
+	width: 200px;
+	max-width: 100%;
+	display: flex;
+	justify-content: flex-stard;
 }
 
-.gomoanim img {
-	max-width: 30%;
-	min-width:300px;
-	margin-top: 20px;
-	mix-blend-mode: darken;
+.text:hover {
+	cursor: text;
 }
 
+/* about specific */
 .under {
 	position: absolute;
 	top: 100px;
@@ -87,9 +119,4 @@ footer {
 	left: 2px;
 	top: 10px;
 	z-index: -1;
-}
-
-.gomoload {
-	width: 100px;
-	margin-top: 150px;
 }
