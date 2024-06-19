@@ -1,5 +1,5 @@
 * {
-	border: solid 0px salmon;
+	border: solid px salmon;
 /*
 	background-color: lightgrey; 
 	mix-blend-mode: multiply;
@@ -13,35 +13,41 @@
 }
 */
 
+@font-face {
+  font-family: Itim;
+  src: url(assets/Itim-Regular.ttf);
+}
+html, body
+{
+    margin: 0px; 
+}
+
 body {
 	background: floralwhite;  /* #FFE8B8 */ /* floralwhite? */
-	cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="orange" stroke="none" width="20px" height="20px" viewBox="0 0 10.04 10.04"><circle cx="5.02" cy="5.02" r="4.52"/></svg>') 10 10, auto;
-  /* height: 100vh; */
+	cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="blue" stroke="none" width="20px" height="20px" viewBox="0 0 10.04 10.04"><circle cx="5.02" cy="5.02" r="4.52"/></svg>') 10 10, auto;
   font-family: "Itim";
   font-size: 20px;
-}
-
-a {
-	color: orange;
-	text-decoration: none;
-	align-content: center;
-}
-
-a:hover {
- 	color: blue; /* 
- 	text-decoration: line-through; */
- 	cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" stroke="none" fill="blue" width="20px" height="20px" viewBox="0 0 10.04 10.04"><circle cx="5.02" cy="5.02" r="4.52"/></svg>') 10 10, auto;
+  height: 99vh;
 }
 
 header {
 	padding: 20px;
 	text-align: center;
 }
-
+/*
+.gomoa {
+	display:block;
+	margin: auto;
+	background-color: ;
+}
+*/
 .gomo {
 	width: 80%;
 	max-width: 200px;
 	margin-bottom: 20px;
+}
+.gomo:hover {
+	filter: invert(100%);
 }
 
 .nav {
@@ -53,11 +59,22 @@ header {
 	justify-content: space-around;
 }
 
+.navi {
+	color: orange;
+	text-decoration: none;
+}
+
+a:hover {
+ 	color: blue; /* 
+ 	text-decoration: line-through; */
+ 	cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" stroke="none" fill="orange" width="20px" height="20px" viewBox="0 0 10.04 10.04"><circle cx="5.02" cy="5.02" r="4.52"/></svg>') 10 10, auto;
+}
+
 main {
 		display: flex;
 		justify-content: center;
 }
-.gomogif {
+.gomogif, .gomonos {
 	min-width: 10px;
 	max-width:400px;
 	max-height: 60vh;
@@ -65,58 +82,36 @@ main {
 	mix-blend-mode: darken;
 }
 
-
-h1 {
-	font-family: "helvetica";
-}
-
 .inabout, .instore {
 	text-decoration: line-through;
 }
 
 footer {
-	text-align: center;
-	margin-top: 0px;
+	margin-top: 20px;
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	color: orange;
 }
 
+.contact {
+	margin: 8px;
+}
 .icons {
 	width: 20px;
-	margin: 5px;
 }
 .icons:hover {
 	filter: invert(100%);
 }
 
-.mail {
-	width: 200px;
-	max-width: 100%;
-	display: flex;
-	justify-content: flex-end;
-}
-.social {
-	width: 200px;
-	max-width: 100%;
-	display: flex;
-	justify-content: flex-stard;
-}
-
 .text:hover {
 	cursor: text;
 }
-
-/* about specific */
-.under {
-	position: absolute;
-	top: 100px;
-	z-index: -1;
+/*
+svg {
+	width: 20px;
+	fill: orange;
 }
-
-.top {
-	position: relative;
-	left: 2px;
-	top: 10px;
-	z-index: -1;
-}
+svg:hover {
+	fill: blue;
+} */
