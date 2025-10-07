@@ -1,5 +1,5 @@
 * {
-	border: solid px salmon;
+	border: solid px blue;
 /*
 	background-color: lightgrey; 
 	mix-blend-mode: multiply;
@@ -24,7 +24,7 @@ html, body
 
 body {
 	background: floralwhite;  /* #FFE8B8 */ /* floralwhite? */
-	cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="blue" stroke="none" width="20px" height="20px" viewBox="0 0 10.04 10.04"><circle cx="5.02" cy="5.02" r="4.52"/></svg>') 10 10, auto;
+	cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="blue" stroke="none" width="15px" height="15px" viewBox="0 0 10.04 10.04"><circle cx="5.02" cy="5.02" r="4.52"/></svg>') 10 10, auto;
   font-family: "Itim";
   font-size: 20px;
   height: 99vh;
@@ -67,7 +67,7 @@ header {
 a:hover {
  	color: blue; /* 
  	text-decoration: line-through; */
- 	cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" stroke="none" fill="orange" width="20px" height="20px" viewBox="0 0 10.04 10.04"><circle cx="5.02" cy="5.02" r="4.52"/></svg>') 10 10, auto;
+ 	cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" stroke="none" fill="orange" width="15px" height="15px" viewBox="0 0 10.04 10.04"><circle cx="5.02" cy="5.02" r="4.52"/></svg>') 10 10, auto;
 }
 
 main {
@@ -83,7 +83,8 @@ main {
 }
 
 .inabout, .instore {
-	text-decoration: line-through;
+	color: orange;
+	text-decoration: underline;
 }
 
 footer {
@@ -115,3 +116,13 @@ svg {
 svg:hover {
 	fill: blue;
 } */
+
+canvas {
+    margin-top: 20px;
+    border: 10px solid orange;
+    border-radius: 20px;
+    background-color: floralwhite;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
