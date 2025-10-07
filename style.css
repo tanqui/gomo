@@ -44,7 +44,6 @@ header {
 .gomo {
 	width: 80%;
 	max-width: 200px;
-	margin-bottom: 20px;
 }
 .gomo:hover {
 	filter: invert(100%);
@@ -55,6 +54,7 @@ header {
 	max-width: 250px;
 	color: orange;
 	margin: auto;
+	margin-bottom: 20px;
 	display: flex;
 	justify-content: space-around;
 }
