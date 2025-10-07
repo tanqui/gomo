@@ -34,13 +34,7 @@ header {
 	padding: 20px;
 	text-align: center;
 }
-/*
-.gomoa {
-	display:block;
-	margin: auto;
-	background-color: ;
-}
-*/
+
 .gomo {
 	width: 80%;
 	max-width: 200px;
@@ -54,7 +48,7 @@ header {
 	max-width: 250px;
 	color: orange;
 	margin: auto;
-	margin-bottom: 20px;
+	margin-top: 20px;
 	display: flex;
 	justify-content: space-around;
 }
@@ -125,4 +119,8 @@ canvas {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+canvas:hover {
+ 	color: blue;
+ 	cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" stroke="none" fill="orange" width="15px" height="15px" viewBox="0 0 10.04 10.04"><circle cx="5.02" cy="5.02" r="4.52"/></svg>') 10 10, auto;
 }
